@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px 50px;
+    width: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+button:hover {
+    background-color: #3d9bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    color: #000000;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.task-actions button {
+    padding: 5px;
+}
